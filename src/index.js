@@ -5,6 +5,7 @@ import Home from './comp/Home';
 import Header from './comp/Header'
 import Skills from './comp/Skills'
 import Hireme from './comp/Hireme'
+import Footer from './comp/Footer'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,6 +13,7 @@ ReactDOM.render(
       <Home />
       <Skills />
       <Hireme />
+      <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

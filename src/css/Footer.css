@@ -1,0 +1,11 @@
+footer {
+    background: #9eb8e0;
+    height: 30vh;
+    width:100%;
+    float:left;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 1em !important;
+}

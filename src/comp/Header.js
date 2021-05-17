@@ -24,7 +24,7 @@ function Header() {
                         down_arrw.style.display = 'inline'
                     } else {
                         if(window.scrollY>100) {
-                            header.style.backgroundColor = 'rgba(0,0,0,0.3)'
+                            header.style.backgroundColor = 'rgba(0,0,0,0.5)'
                             socials.style.backgroundColor = 'transparent'
                             bio.style.display = 'none'
                             download_cv.style.display = 'none'
