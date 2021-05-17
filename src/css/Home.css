@@ -3,17 +3,75 @@
 }
 
 .Home {
-  background-image: url(https://s8.pdfconvertonline.com/convert/p3r68-cdx67/pdwqd-mfev7.jpg);
+  background-image: url("../background.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white !important;
+}
+
+.down-arrw {
+  position: fixed;
+  top:75%;
+}
+
+.socials {
+  position: fixed;
+  top: 1%;
+  border-radius: 8px;
+  left: 30%;
+  right: 30%;
+  background-color: rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.socials h4 {
+  display: none;
+  font-weight: 300;
+  opacity: 0;
+}
+
+.socials:hover h4 {
+  display: inline-block;
+  animation: h4animation 0.3s ease-in;
+  opacity: 1;
+}
+
+@keyframes h4animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .8 !important;
+  }
+}
+
+.socials i {
+  margin-left: 20px;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 45%;
+  background-color: rgba(255,255,255,0.3);
+  width: 6% !important;
+}
+
+.socials i:hover {
+  animation: iconhover 6s ease-in;
+}
+
+@keyframes iconhover {
+  0% {
+    box-shadow: 0 0 0 0;
+  }
+  0% {
+    box-shadow: 0 2px 20px black;
+  }
 }
 
 p {
@@ -29,6 +87,30 @@ p {
   padding: 40px;
   text-align: left;
   border-radius: 9px;
+  width: 40%;
+  opacity: 0;
+}
+
+.left-bio {
+  animation: fade-in 0.7s ease-in; /* make a animation for it to come in on load */
+  opacity: 1;
+}
+
+.fa::before {
+  content: "f09b";
+}
+
+@keyframes fade-in {
+  0%{
+    opacity: 0;
+    left: -10%;
+    right: 80%;
+  }
+  100% {
+    opacity: 1 !important;
+    left: 10% !important;
+    right: 30%;
+  }
 }
 
 .Home-link {
