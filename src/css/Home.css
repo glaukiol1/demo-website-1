@@ -1,0 +1,35 @@
+.Home {
+  text-align: center;
+}
+
+.Home {
+  background-image: url(https://s8.pdfconvertonline.com/convert/p3r68-cdx67/pdwqd-mfev7.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  /* overflow-y: scroll; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white !important;
+}
+
+p {
+  font-size: .6em !important;
+}
+
+.left-bio {
+  position: fixed;
+  left: 6%;
+  top: 15%;
+  right: 50%;
+  background: rgba(0,0,0,0.3);
+  padding: 40px;
+  text-align: left;
+}
+
+.Home-link {
+  color: #61dafb;
+}
