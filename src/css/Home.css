@@ -19,6 +19,7 @@
 .down-arrw {
   position: fixed;
   top:75%;
+  left: 50%;
 }
 
 .socials {
@@ -115,4 +116,14 @@ p {
 
 .Home-link {
   color: #61dafb;
+}
+
+#download-cv {
+  position: fixed;
+  top: 65%;
+  left: 20%;
+  width: 200px;
+  height: 60px;
+  border: none;
+  outline: none;
 }

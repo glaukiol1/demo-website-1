@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './comp/Home';
 import Header from './comp/Header'
+import Skills from './comp/Skills'
 
 ReactDOM.render(
   <React.StrictMode>
       <Header />
       <Home />
+      <Skills />
   </React.StrictMode>,
   document.getElementById('root')
 );
