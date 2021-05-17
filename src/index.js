@@ -4,12 +4,14 @@ import './index.css';
 import Home from './comp/Home';
 import Header from './comp/Header'
 import Skills from './comp/Skills'
+import Hireme from './comp/Hireme'
 
 ReactDOM.render(
   <React.StrictMode>
       <Header />
       <Home />
       <Skills />
+      <Hireme />
   </React.StrictMode>,
   document.getElementById('root')
 );

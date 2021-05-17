@@ -17,13 +17,13 @@ function Home() {
       <div className="socials">
         <h4 style={{display: 'inline-block', padding: '0', margin: '0'}}>Socials</h4>
         <i className="fab fa-github"></i>
-        <i class="fab fa-linkedin-in"></i>
-        <i class="fas fa-envelope"></i>
-        <i class="fab fa-stack-overflow"></i>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-medium-m"></i>
+        <i className="fab fa-linkedin-in"></i>
+        <i className="fas fa-envelope"></i>
+        <i className="fab fa-stack-overflow"></i>
+        <i className="fab fa-facebook-f"></i>
+        <i className="fab fa-medium-m"></i>
       </div>
-      <i class="fas fa-arrow-alt-circle-down down-arrw"></i>
+      <i className="fas fa-arrow-alt-circle-down down-arrw"></i>
     </div>
   );
 }

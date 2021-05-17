@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Pangolin&display=swap);
+#hireme {
+    float: left;
+    width:100%;
+    padding: 25px;
+}
+
+#hireme h1 {
+    font-family: 'Pangolin' !important;
+    color: #4c6796 !important;
+    font-size: 6vh;
+    padding: 5px;
+    margin-left: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+#hireme h3 {
+    font-size: 1em;
+    text-align: center;
+}
+
+#hireme a {
+    text-decoration: none;
+}

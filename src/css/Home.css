@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
-  overflow-y: scroll;
+  overflow-y: hidden;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -59,7 +59,7 @@
   border: 1px solid transparent;
   border-radius: 45%;
   background-color: rgba(255,255,255,0.3);
-  width: 6% !important;
+  width: 9% !important;
 }
 
 .socials i:hover {
