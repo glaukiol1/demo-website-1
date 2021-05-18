@@ -4,8 +4,7 @@
     left:0;
     right:0;
     bottom: 90%;
-    /* background-color: rgb(238, 238, 238);
-    box-shadow: 0px 2px 5px lightgray; */
+    background-color:rgba(0, 0, 0, 0.3);
 }
 
 .header * {

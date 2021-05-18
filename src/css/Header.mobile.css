@@ -1,0 +1,41 @@
+@media only screen and (max-width: 900px) {
+    header {
+        bottom: 0 !important;
+        top: 90% !important;
+    }
+    .Home {
+        background-image: none;
+    }
+    .header .btn-holder {
+        text-align: right !important;
+        position: fixed !important;
+        top: 91% !important;
+        bottom: 2% !important;
+        right:3% !important;
+    }
+    .header .btn-holder button {
+        background-color: rgba(0,0,0,0.8) !important;
+    }
+    .header h3 {
+        text-align: left;
+        position: fixed;
+        left: 1%;
+        top: 91% !important;
+        bottom: 0.5% !important;
+        font-size: 11px !important;
+    }
+    #download-cv-1 {
+        align-self:center;
+        width: 150px;
+        height: 50px;
+    }
+    .mobileOnly {
+        display: block !important;
+    }
+    .desktopOnly {
+        display: none !important;
+    }
+    .socials {
+        display:none !important;
+    }
+}

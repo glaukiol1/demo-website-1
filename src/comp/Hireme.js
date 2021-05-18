@@ -1,4 +1,5 @@
 import '../css/Hireme.css';
+import '../css/Hireme.mobile.css';
 
 function Hireme() {
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './index.mobile.css'
 import Home from './comp/Home';
 import Header from './comp/Header'
 import Skills from './comp/Skills'

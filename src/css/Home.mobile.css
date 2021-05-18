@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap);
+@media only screen and (max-width: 900px) {
+    .bio h1 {
+        color: #4c6796 !important;
+        font-family: 'Pangolin' !important;
+        font-size: 6vh;
+        padding: 5px;
+        margin-left: 50px;
+        text-align: center;
+        margin: 0;
+    }
+    .bio p {
+        font-family: 'Pangolin';
+        text-align: left;
+    }
+    .socials-mobile {
+        background-color: black;
+        width:65%;
+        margin: 0px auto !important;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .socials-mobile i {
+        margin: 5px 15px;
+        padding: 5px;
+        border: 1px solid transparent;
+        border-radius: 45%;
+        background-color: rgba(255,255,255,0.3);
+        width: 15% !important;
+    }
+    .job {
+        font-size: 1em !important;
+        text-align: center !important;
+        font-family: 'Dancing Script', 'Pangolin';
+        padding-left: 5px;
+        margin: 0;
+    }
+
+
+    .bio h2 {
+        text-align: left;
+        font-family: 'Pangolin' !important;
+    }
+    .bio * {
+        color: black;
+    }
+    .bio {
+        padding: 25px 25px;
+    }
+    .mobileOnly {
+        display: block !important;
+    }
+    .desktopOnly {
+        display: none !important;
+    }
+}

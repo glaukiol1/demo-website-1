@@ -1,0 +1,13 @@
+@media only screen and (max-width: 900px) {
+    .float_left {
+        float: none !important;
+        width: 100% !important;
+    }
+    .float_right {
+        float: none !important;
+        width: 100% !important;
+    }
+    .skill {
+        width: 100% !important;
+    }
+}

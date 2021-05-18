@@ -1,4 +1,5 @@
 import '../css/Skills.css';
+import '../css/Skills.mobile.css'
 
 function Skills() {
   return (
